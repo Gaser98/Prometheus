@@ -1,5 +1,5 @@
 # Prometheus
-A quick demo on Prometheus that shows its installation on a GCP ubuntu VM to monitor its resources utilization and visualize it on Garafana and fire alerts to a slack channels to notify the monitoring teams.
+A quick demo on Prometheus that shows its installation on a GCP ubuntu VM to monitor its resources utilization and visualize it on Garafana and fire alerts to a slack channel to notify the monitoring teams.
 
 # Installation
 ```bash

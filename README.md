@@ -10,6 +10,8 @@ bash ./Node-Exporter.sh
 bash ./Grafana.sh
 ```
 # Access
+## Create a firewall rule to enable inbound traffic to the following ports 
+
 Prometheus webui : http://<VM_external_ip>:9090
 
 Node export      : https://<VM_external_ip>:9100

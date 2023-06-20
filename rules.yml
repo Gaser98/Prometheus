@@ -1,0 +1,10 @@
+groups:
+ - name: running-containers-check
+   rules:
+     - record: RunningContainers
+       expr: engine_daemon_container_states_containers{instance="localhost:9323",job="docker-daemon",state="running"}
+     - alert: ContainerIsDown
+       expr: RunningContainers < 2
+       labels:
+          severity: Crucial
+       for: 10s
